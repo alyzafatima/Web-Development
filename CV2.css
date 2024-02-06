@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100px; /* Adjust the width of the picture as needed */
+    height: 100px; /* Adjust the height of the picture as needed */
+    border-radius: 50%; /* Creates a circular shape for the image */
+    margin-right: 20px; /* Adjust the margin between picture and name as needed */
+}
+
+.name {
+    flex-grow: 1; /* Allows the name section to take up remaining space */
+}
+
+.contact-info {
+    text-align: right;
+}
+.name-divider {
+    border: none;
+    border-top: 3px solid gray; /* Adjust the color as needed */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    width: 40%; /* Adjust the width of the line as needed */
+}
+
+
+body {
+    background-color: #f5f5f5;
+    
+    color: #333;
+}
+
+/* Add icons next to contact information */
+.contact-info a:before {
+    content: "\1F4E7";
+    /* Email icon */
+    margin-right: 5px;
+}
+
+/* Style links for better visibility */
+a {
+    color: #007BFF;
+    /* Blue link color */
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Add box shadows for sections */
+section {
+    background-color: #fff;
+    /* White background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design adjustments */
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .education-skills-experience {
+        flex-direction: column;
+
+    }
+}
