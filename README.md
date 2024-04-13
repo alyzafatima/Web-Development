@@ -12,6 +12,7 @@
   - The game automatically detects when a player wins or when there is a draw.
   - Use the 'New game' button to start a new game.
   - Use the 'Reset' button to reset the game board.
+- check it out https://alyzafatima.github.io/Web-Development/index.html
 # CV-template.html
 -  I've crafted my own CV using HTML and CSS, blending creativity with functionality.
 -  Check it out  https://alyzafatima.github.io/Web-Development/CV-template.html
